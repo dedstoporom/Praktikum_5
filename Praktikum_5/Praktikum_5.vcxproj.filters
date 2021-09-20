@@ -15,25 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Praktikum_5.cpp">
+    <ClCompile Include="Praktikum_5.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Z1.cpp">
+    <ClCompile Include="Z1.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Z2.cpp">
+    <ClCompile Include="Z2.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Z3.cpp">
+    <ClCompile Include="Z3.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Z4.cpp">
+    <ClCompile Include="Z4.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Z5.cpp">
+    <ClCompile Include="Z6.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Z6.cpp">
+    <ClCompile Include="Z5.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

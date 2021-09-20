@@ -1,5 +1,4 @@
 #include<math.h>
-using namespace std;
 int strlength(const char *str)
 {
 	int  flag=0;

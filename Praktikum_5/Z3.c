@@ -1,6 +1,5 @@
 #include<math.h>
-#include <iostream>
-using namespace std;
+
 char find(const char*, const char*);
 int strlength(const char*);
 void Delete(char* str, const char* substr)
@@ -11,6 +10,6 @@ void Delete(char* str, const char* substr)
 		str[((flag)+i)]= str[((flag)+i) + strlength(substr)];
 	}
 	printf("Z3:");
-	cout << str;
+	puts(str);
 	printf("[New length:%d]\n", strlength(str));
 }

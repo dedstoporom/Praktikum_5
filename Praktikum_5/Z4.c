@@ -1,7 +1,7 @@
 #include<math.h>
-#include <iostream>
-using namespace std;
-void strcpy(char* dest, int len, const char* src)
+
+
+void Strcpy(char* dest, int len, const char* src)
 {
 	
 	for (int i = 0; i < len-1; i++)
@@ -10,5 +10,6 @@ void strcpy(char* dest, int len, const char* src)
 	}
 	*(dest + len-1) = 0;
 	printf("Z4:");
-	cout << dest;
+	puts(dest);
+
 }

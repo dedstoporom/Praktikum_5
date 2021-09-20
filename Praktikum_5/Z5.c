@@ -1,6 +1,4 @@
 #include<math.h>
-#include <iostream>
-using namespace std;
 int strlength(const char*);
 void strcat(char* dest, int len, const char* first, const char* second)
 {
@@ -11,12 +9,12 @@ void strcat(char* dest, int len, const char* first, const char* second)
 		*(dest + i) = *(first + i);
 	}
 	int i1 = 0;
-	for ( i = strlength(first); i <len; i++)
+	for (i = strlength(first); i < len; i++)
 	{
-		*(dest + i) = *(second+i1);
+		*(dest + i) = *(second + i1);
 		i1++;
 	}
 	*(dest + len - 1) = 0;
 	printf("\nZ5:");
-	cout << dest;
+	puts(dest);
 }
