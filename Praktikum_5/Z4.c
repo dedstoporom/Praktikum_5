@@ -1,15 +1,11 @@
 #include<math.h>
-
-
-void Strcpy(char* dest, int len, const char* src)
+void strcpy(char* dest, int len, const char* src)
 {
-	
-	for (int i = 0; i < len-1; i++)
+	for (int i = 0; i < len; i++)
 	{
 		*(dest + i) = *(src + i);
 	}
-	*(dest + len-1) = 0;
+	*(dest + len) = 0;
 	printf("Z4:");
 	puts(dest);
-
 }

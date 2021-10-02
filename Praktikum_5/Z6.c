@@ -9,7 +9,6 @@ _Bool Insert(const char* src, const char* str, int index, char* dest, int len)
 
 	if (strlength(str) + strlength(src) > len)
 	{
-		puts("\nZ6:Error(the string size is larger than buffer size)");
 		return 0;
 	}
 	else
@@ -30,8 +29,6 @@ _Bool Insert(const char* src, const char* str, int index, char* dest, int len)
 			flag++;
 			flag2++;
 		}
-		printf("\nZ6:");
-		puts(dest);
 		return 1;
 	}
 }
