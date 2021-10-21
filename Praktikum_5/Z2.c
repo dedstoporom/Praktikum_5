@@ -20,10 +20,10 @@ char *find(const char* str, const char* substr)
 			}
 			if (value) { break; }
 			else {
-				return *(str + flag);
+				return (str + flag);
 			}
 		}
 		flag++;
 	}
-	return NULL;
+	return 0;
 }

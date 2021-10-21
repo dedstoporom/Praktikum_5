@@ -13,9 +13,9 @@ int main()
 	int select;
 	int size;
 	int point;
-	char st[]="VOHNA";
+	char st[]="Hello_World";
 	char st2[] = "Rapture";
-	char substr[]="HA";
+	char substr[]="H";
 	char dest[19];
 	_Bool b;
 	printf("Please,select task:");
