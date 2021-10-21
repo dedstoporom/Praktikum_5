@@ -13,7 +13,7 @@ char *find(const char* str, const char* substr)
 			int i = 0;
 			while (i < len)
 			{
-				if (*(str + flag + i) != *(substr + i)) {
+				if (*(str + flag + i) != *(substr + i)&& *(str + flag + i)!=0) {
 					value = 1;
 					break;
 				}

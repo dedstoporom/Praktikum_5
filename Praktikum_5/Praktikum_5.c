@@ -15,7 +15,7 @@ int main()
 	int point;
 	char st[]="Hello_World!";
 	char st2[] = "Rapture";
-	char substr[]="Wo";
+	char substr[]="World!hhhhhhhhhhhh";
 	char dest[19];
 	_Bool b;
 	printf("Please,select task:");
