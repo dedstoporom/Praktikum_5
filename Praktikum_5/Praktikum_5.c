@@ -13,9 +13,9 @@ int main()
 	int select;
 	int size;
 	int point;
-	char st[]="Hello_World!";
+	char st[]="VOHNA";
 	char st2[] = "Rapture";
-	char substr[]="World!hhhhhhhhhhhh";
+	char substr[]="HA";
 	char dest[19];
 	_Bool b;
 	printf("Please,select task:");
@@ -33,7 +33,7 @@ int main()
 	case 2:
 	{
 		char *f = find(st, substr);
-		printf("%p", f);
+		printf("%c", f);
 		break;
 	}
 	case 3:
