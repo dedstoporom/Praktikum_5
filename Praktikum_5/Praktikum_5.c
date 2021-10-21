@@ -24,13 +24,16 @@ int main()
 	{
 	case 1: 
 	{
-		printf("Z1 result:%d\n", strlength(st));
+		puts("VVedite");
+		scanf_s("%s", st);
+		printf("%s",st);
+		//printf("Z1 result:%d\n", strlength(st));
 		break;
 	}
 	case 2:
 	{
 		char *f = find(st, substr);
-		printf("%d", f);
+		printf("%p", f);
 		break;
 	}
 	case 3:
