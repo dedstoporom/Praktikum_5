@@ -5,12 +5,15 @@ void delete(char* str, const char* substr)
 { 
 	char* f = find(str, substr);
 	int flag = 0;
-	for (int i = 0; i < strlength(str); i++)
+	int i = 0;
+	while (i < strlength(str))
 	{
 		if (*(str + i) == *(f + flag))
 		{
 			*(str + i) = *(f + flag + strlength(substr));
 			flag++;
 		}
+		i++;
 	}
+	*(str + i + 1) = 0;
 }
