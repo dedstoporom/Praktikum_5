@@ -15,6 +15,4 @@ void strcat(char* dest, int len, const char* first, const char* second)
 		i1++;
 	}
 	*(dest + len) = 0;
-	printf("\nZ5:");
-	puts(dest);
 }

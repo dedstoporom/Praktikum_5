@@ -6,6 +6,4 @@ void strcpy(char* dest, int len, const char* src)
 		*(dest + i) = *(src + i);
 	}
 	*(dest + len) = 0;
-	printf("Z4:");
-	puts(dest);
 }

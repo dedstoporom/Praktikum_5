@@ -24,10 +24,7 @@ int main()
 	{
 	case 1: 
 	{
-		puts("VVedite");
-		scanf_s("%s", st);
-		printf("%s",st);
-		//printf("Z1 result:%d\n", strlength(st));
+		printf("Z1 result:%d\n", strlength(st));
 		break;
 	}
 	case 2:
@@ -47,6 +44,7 @@ int main()
 		puts("Please,enter size buffer:");
 		scanf_s("%d", &size);
 		strcpy(dest, size, st);
+		puts(dest);
 		break;
 	}
 	case 5:
@@ -54,6 +52,7 @@ int main()
 		puts("Please,enter size buffer:");
 		scanf_s("%d", &size);
 		strcat(dest, size, st, st2);
+		puts(dest);
 		break;
 	}
 	case 6:
